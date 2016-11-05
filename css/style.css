@@ -37,6 +37,9 @@ img{
 	margin:10px;
 	width:600px;
 }
+figure{
+	text-align: center;
+}
 
 
 header{
@@ -125,6 +128,8 @@ footer{
 	padding-right: 20px;
 }
 
+
+
 .gallery{
 	margin-top: 20px;
 	color:black;
@@ -139,6 +144,9 @@ footer{
 	width:600px;
 }
 
+.projects{
+	width:300px;
+}
 
 
 .container{
