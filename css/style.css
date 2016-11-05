@@ -38,6 +38,7 @@ img{
 	width:600px;
 }
 
+
 header{
 	font-size: 40px;
 	color:  #204156;
@@ -126,6 +127,7 @@ footer{
 }
 .gallery-item{
 	margin:10px;
+	
 }
 .imgdisplay{
 	border:3px solid #FFF;
