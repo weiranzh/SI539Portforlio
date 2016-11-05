@@ -70,6 +70,10 @@ nav a{
 
 footer{
 	font-size: 16px;
+	position:relative;
+	width:100%;
+	bottom:0;
+	left:0;
 	background-color: #deefe5; 
 	padding-left: 2em;
 	padding-right: 2em;
