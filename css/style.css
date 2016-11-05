@@ -135,6 +135,14 @@ footer{
 	width:600px;
 }
 
+.footer{
+	position: relative;
+	margin-top: -52px;
+	right:0;
+	bottom:0;
+	left: 0;
+
+}
 
 .container{
 	columns: 2;
