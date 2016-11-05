@@ -38,6 +38,7 @@ img{
 	width:600px;
 }
 
+
 header{
 	font-size: 40px;
 	color:  #204156;
@@ -68,6 +69,10 @@ nav a{
 
 
 footer{
+	position:fixed;
+	width:100%;
+	bottom:0;
+	left:0;
 	font-size: 16px;
 	background-color: #deefe5; 
 	padding-left: 2em;
@@ -113,7 +118,7 @@ footer{
 .content{
 	width: 95%;
 	background: rgba(255,255,255,0.3);
-	margin-bottom: 25px;
+	margin-bottom: 90px;
 	margin-right: 25px;
 	margin-left:25px;
 	padding-left: 10px
@@ -126,12 +131,14 @@ footer{
 }
 .gallery-item{
 	margin:10px;
+	
 }
 .imgdisplay{
 	border:3px solid #FFF;
 	height: 400px;
 	width:600px;
 }
+
 
 
 .container{
