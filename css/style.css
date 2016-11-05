@@ -136,7 +136,7 @@ footer{
 }
 
 .footer{
-	position: relative;
+	position: absolute;
 	margin-top: -52px;
 	right:0;
 	bottom:0;
