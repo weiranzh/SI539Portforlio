@@ -209,12 +209,25 @@ nav a{
 header{
 	font-size: 30px;
 }
+footer{
+	position:relative;
+	padding-left: 1em;
+	padding-right: 0em;
+	padding-top: 0em;
+
+}
+
+.copyright{
+	padding-top: 0em;
+}
+
 .gallery{
 	display:inline-block;
 }
 .content{
 	display:block;
 	min-width: 360px;
+	margin-bottom:25px; 
 }
 
 .imgdisplay{
