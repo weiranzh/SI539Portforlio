@@ -1,6 +1,5 @@
-
 html, body{	
-	font-family: sans-serif;
+	font-family: 'Raleway','Helvetica Neue','Open Sans', sans-serif;
 	line-height: 1.25;
 	min-height: 100%;
 	font-size: 100%
@@ -15,12 +14,18 @@ body{
 
 article,aside,footer,header,nav,section{
 	display:block;
+	min-width: 400px;
 }
 
 div{
-	
 	height: 100%;
 	width: 100%;
+}
+
+h1{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-shadow: 0 3px white, 0 4px #777;
 }
 
 h3{
@@ -31,11 +36,15 @@ h3{
 h4{
 	font-size: 20px;
 	margin:0.67em 0;
+	text-align: center;
 }
 
 img{
 	margin:10px;
-	width:600px;
+	width:500px;
+}
+figure{
+	text-align: center;
 }
 
 
@@ -69,12 +78,15 @@ nav a{
 
 
 footer{
+	position:fixed;
+	width:100%;
+	bottom:0;
+	left:0;
 	font-size: 16px;
 	background-color: #deefe5; 
 	padding-left: 2em;
 	padding-right: 2em;
 	padding-top: 1em;
-	min-width: 400px;
 }
 
 
@@ -114,7 +126,7 @@ footer{
 .content{
 	width: 95%;
 	background: rgba(255,255,255,0.3);
-	margin-bottom: 25px;
+	margin-bottom: 90px;
 	margin-right: 25px;
 	margin-left:25px;
 	padding-left: 10px
@@ -122,27 +134,30 @@ footer{
 }
 
 .gallery{
+	display:inline-flex;
 	margin-top: 20px;
 	color:black;
 }
 .gallery-item{
-	margin:10px;
-	
+	margin:10px;	
 }
 .imgdisplay{
 	border:3px solid #FFF;
 	height: 400px;
 	width:600px;
 }
-
-.footer{
-	position: relative;
-	margin-top: -52px;
-	right:0;
-	bottom:0;
-	left: 0;
-
+.projectpage{
+	display:table;
 }
+.projectshow{
+	display:table-cell;
+	width:50%;
+}
+
+.projects{
+	width:300px;
+}
+
 
 .container{
 	columns: 2;
@@ -162,8 +177,57 @@ footer{
 	width:40px;
 }
 
+@media screen and (max-width: 1300px){
+article,aside,footer,header,nav,section{
+	display:block;
+	min-width: 900px;
+}
+.gallery{
+	display:inline-block;
+}
+.content{
+	display:block;
+}
 
-@media screen and (min-width: 800px){
-
+.imgdisplay{
+	display: block;
+}
 
 }
+
+
+
+@media screen and (max-width: 500px){
+	article,aside,footer,header,nav,section{
+	display:block;
+	min-width: 450px;
+}
+nav a{
+	height:40px;
+	line-height: 40px;
+}
+header{
+	font-size: 30px;
+}
+.gallery{
+	display:inline-block;
+}
+.content{
+	display:block;
+	min-width: 450px;
+}
+
+.imgdisplay{
+	display: block;
+	height:280px;
+	width: 420px;
+}
+.projectpage{
+	display:block;
+}
+.projectshow{
+	display:block;
+}
+}
+
+
