@@ -146,10 +146,10 @@ footer{
 	height: 400px;
 	width:600px;
 }
-.projectpage{
+.projectpage, .skillpage{
 	display:table;
 }
-.projectshow{
+.projectshow, .skillshow{
 	display:table-cell;
 	width:50%;
 }
@@ -159,7 +159,7 @@ footer{
 }
 
 
-.container{
+.footer{
 	columns: 2;
 
 }
@@ -197,10 +197,10 @@ article,aside,footer,header,nav,section{
 
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 450px){
 	article,aside,footer,header,nav,section{
 	display:block;
-	min-width: 500px;
+	min-width: 400px;
 }
 nav a{
 	height:40px;
@@ -214,18 +214,18 @@ header{
 }
 .content{
 	display:block;
-	min-width: 450px;
+	min-width: 360px;
 }
 
 .imgdisplay{
 	display: block;
-	height:300px;
-	width: 450px;
+	height:220px;
+	width: 330px;
 }
-.projectpage{
+.projectpage, .skillpage{
 	display:block;
 }
-.projectshow{
+.projectshow, .skillshow{
 	display:block;
 }
 }
