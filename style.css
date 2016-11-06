@@ -146,10 +146,10 @@ footer{
 	height: 400px;
 	width:600px;
 }
-.projectpage{
+.projectpage, .skillpage{
 	display:table;
 }
-.projectshow{
+.projectshow, .skillshow{
 	display:table-cell;
 	width:50%;
 }
@@ -159,7 +159,7 @@ footer{
 }
 
 
-.container{
+.footer{
 	columns: 2;
 
 }
@@ -197,10 +197,10 @@ article,aside,footer,header,nav,section{
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 450px){
 	article,aside,footer,header,nav,section{
 	display:block;
-	min-width: 450px;
+	min-width: 400px;
 }
 nav a{
 	height:40px;
@@ -209,23 +209,36 @@ nav a{
 header{
 	font-size: 30px;
 }
+footer{
+	position:relative;
+	padding-left: 1em;
+	padding-right: 0em;
+	padding-top: 0em;
+
+}
+
+.copyright{
+	padding-top: 0em;
+}
+
 .gallery{
 	display:inline-block;
 }
 .content{
 	display:block;
-	min-width: 450px;
+	min-width: 360px;
+	margin-bottom:25px; 
 }
 
 .imgdisplay{
 	display: block;
-	height:280px;
-	width: 420px;
+	height:220px;
+	width: 330px;
 }
-.projectpage{
+.projectpage, .skillpage{
 	display:block;
 }
-.projectshow{
+.projectshow, .skillshow{
 	display:block;
 }
 }
