@@ -54,6 +54,7 @@ figure{
 }
 
 
+
 header{
 	font-size: 40px;
 	color:  #204156;
@@ -128,6 +129,10 @@ footer{
 	background-attachment: fixed;
 	margin:0;
 }
+#show{
+	display:inline-flex;
+	margin-top:90px;
+}
 
 .content{
 	width: 95%;
@@ -147,6 +152,7 @@ footer{
 .gallery-item{
 	margin:10px;	
 }
+
 .imgdisplay{
 	border:3px solid #FFF;
 	height: 400px;
@@ -164,6 +170,9 @@ footer{
 	width:300px;
 }
 
+.show-item{
+	width:200px;
+}
 
 .footer{
 	columns: 2;
@@ -183,6 +192,7 @@ footer{
 	width:40px;
 }
 
+
 @media screen and (max-width: 1300px){
 article,aside,footer,header,nav,section{
 	display:block;
@@ -200,6 +210,7 @@ article,aside,footer,header,nav,section{
 }
 
 }
+
 
 
 
@@ -247,6 +258,9 @@ footer{
 .projectshow, .skillshow{
 	display:block;
 }
+#show{
+	display:block;
+	margin-top:30px;
 }
-
+}
 
